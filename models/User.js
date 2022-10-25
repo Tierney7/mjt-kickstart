@@ -18,10 +18,10 @@ const userSchema = new Schema(
       max_length: 50,
     },
    
-    thoughts: [thoughtsSchema],
+    thoughts: [thoughtsSchema]
     
 
-    friends: [assignmentSchema],
+     // friends: [assignmentSchema],
   },
 
   
